@@ -337,3 +337,20 @@ message.info {
   background: rgba(0, 0, 255, 0.3);
   border: 1px solid rgba(0, 0, 255, 0.3);
 }
+
+.footer-rodape {
+  display: flex;
+  justify-content: center;
+  background: var(--clr-black);
+  padding: 20px;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.footer-icons a{
+  margin-right: 10px;
+}
