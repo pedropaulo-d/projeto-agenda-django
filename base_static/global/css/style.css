@@ -339,10 +339,19 @@ message.info {
 }
 
 .footer-rodape {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   background: var(--clr-black);
-  padding: 20px;
+  padding: 40px 0px;
+}
+
+.footer-icons {
+  text-align: center;
+}
+
+.footer-icons a{
+  display: inline-block;
+  margin: 0 10px;
+  
 }
 
 .copyright {
@@ -351,6 +360,3 @@ message.info {
   margin-top: 20px;
 }
 
-.footer-icons a{
-  margin-right: 10px;
-}
